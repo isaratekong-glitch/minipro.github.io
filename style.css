@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+}
+
+header {
+  background: #4a69bd;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background: #6a89cc;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* เพิ่ม */
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05); /* เพิ่ม */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);   /* เพิ่ม */
+}
+
+body {
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+}
+/* Job Card */
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.company-info {
+  background-color: #f1f3f6;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.company-info h2 {
+  margin-bottom: 10px;
+  color: #4a69bd;
+}
+
+.company-info p {
+  margin: 3px 0;
+  color: #333;
+  font-size: 14px;
+}
+/* จัด form อยู่ตรงกลาง */
+form {
+  max-width: 500px;       /* กำหนดความกว้างสูงสุด */
+  margin: 0 auto;         /* กึ่งกลางแนวนอน */
+  background-color: #fff; /* สีพื้นหลังฟอร์ม */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* จัด spacing ของ label และ input */
+form label {
+  font-weight: bold;
+}
+
+form input, form select, form button {
+  width: 100%;            /* ให้ input เต็มความกว้างของฟอร์ม */
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #4a69bd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3b4f9b;
+}
+
